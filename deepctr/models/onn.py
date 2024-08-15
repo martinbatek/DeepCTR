@@ -11,8 +11,8 @@ Reference:
 
 import itertools
 
-from tensorflow.python.keras import backend as K
-from tensorflow.python.keras.layers import (Dense, Embedding, Lambda,
+from tensorflow.keras import backend as K
+from tensorflow.keras.layers import (Dense, Embedding, Lambda,
                                             multiply, Flatten)
 try:
     from tensorflow.python.keras.layers import BatchNormalization
